@@ -18,7 +18,7 @@ export function Teams () {
         <div className="livescore-main">
           <ul className="livescore-main__list">
             {teams.map((team) => (
-              <Link to="/teamsdetails/:id">
+              <Link to={`/teams/${team.id}`}>
                 <li>
                   <img src={team.logo} alt={team.code} />
                   <p>{team.name}</p>

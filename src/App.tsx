@@ -4,6 +4,7 @@ import { Header } from "./Components/Header";
 import { Teams } from "./pages/Teams";
 import { Table } from "./pages/Table";
 import { useState } from "react";
+import { TeamsDetails } from "./pages/TeamsDetails";
 
 export type TeamItem = {
   name: string;
@@ -22,7 +23,7 @@ export type TeamItem = {
   id: number;
 };
 
-function App() {
+function App(team: TeamItem) {
   const [teams, setTeams] = useState<TeamItem[]>([]);
 
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="*" element={<div>404</div>} />
           <Route path="/table" element={<Table />} />
+          <Route path="/teams/:id" element={<TeamsDetails />} />
         </Routes>
       </main>
     </div>

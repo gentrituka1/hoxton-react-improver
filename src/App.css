@@ -107,3 +107,23 @@
   padding: 20px;
 }
 
+/* team details */
+
+.the-team{
+  display: grid;
+  margin: 40px;
+  border: 1px solid grey;
+}
+.team-details__header{
+  border-bottom: 1px solid grey;
+  padding: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4d4a4a;
+}
+.the-team main{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 100px;
+}
