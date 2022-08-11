@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { TeamItem } from "../App";
 
-export function Teams (){
+export function Teams () {
 
-    const [teams, setTeams] = useState<TeamItem[]>([]);
+    const [teams, setTeams] = useState<TeamItem[]>([])
 
     useEffect(() => {
         fetch(`http://localhost:4000/PremierLeagueTeams`)

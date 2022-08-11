@@ -29,8 +29,7 @@ export function Table(){
                 <span>PTS</span>
             </div>
         </div>
-        
-            {teams.map((team, index) => (
+            {teams && teams.sort( (a,b) => b.teamPoints - a.teamPoints).map((team, index) => (
                 <>
                 <div className="two-line">
                     <span>{index + 1}</span>

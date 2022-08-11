@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Link, Navigate, Route, Routes } from "react-router-dom";
 import { Header } from "./Components/Header";
 import { Teams } from "./pages/Teams";
 import { Table } from "./pages/Table";
+import { useState } from "react";
 
 export type TeamItem = {
+  points: any;
   teamPoints: any;
   teamName: string;
   teamCode: string;
@@ -20,6 +20,8 @@ export type TeamItem = {
 };
 
 function App() {
+
+  const [teams, setTeams] = useState<TeamItem[]>([])
 
   return (
     <div className="App">

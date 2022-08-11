@@ -9,6 +9,7 @@
       "teamWon": 8,
       "teamDrawn": 1,
       "teamLost": 4,
+      "teamPoints": 25,
       "id": 1
     },
     {
@@ -20,6 +21,7 @@
       "teamWon": 4,
       "teamDrawn": 3,
       "teamLost": 6,
+      "teamPoints": 15,
       "id": 2
     },
     {
@@ -31,6 +33,7 @@
       "teamWon": 2,
       "teamDrawn": 3,
       "teamLost": 8,
+      "teamPoints": 9,
       "id": 3
     },
     {
@@ -42,6 +45,7 @@
       "teamWon": 3,
       "teamDrawn": 4,
       "teamLost": 6,
+      "teamPoints": 13,
       "id": 4
     },
     {
@@ -53,6 +57,7 @@
       "teamWon": 9,
       "teamDrawn": 1,
       "teamLost": 3,
+      "teamPoints": 28,
       "id": 5
 
     },
@@ -65,6 +70,7 @@
       "teamWon": 9,
       "teamDrawn": 1,
       "teamLost": 3,
+      "teamPoints": 28,
       "id": 6
     },
     {
@@ -76,6 +82,7 @@
       "teamWon": 7,
       "teamDrawn": 4,
       "teamLost": 2,
+      "teamPoints": 24,
       "id": 7
     },
     {
@@ -87,6 +94,7 @@
       "teamWon": 6,
       "teamDrawn": 3,
       "teamLost": 4,
+      "teamPoints": 21,
       "id": 8
     },
     {
@@ -98,6 +106,7 @@
       "teamWon": 6,
       "teamDrawn": 5,
       "teamLost": 2,
+      "teamPoints": 23,
       "id": 9
     },
     {
@@ -109,6 +118,7 @@
       "teamWon": 5,
       "teamDrawn": 3,
       "teamLost": 5,
+      "teamPoints": 18,
       "id": 10
     },
     {
@@ -120,6 +130,7 @@
       "teamWon": 8,
       "teamDrawn": 1,
       "teamLost": 4,
+      "teamPoints": 25,
       "id": 11
     },
     {
@@ -131,6 +142,7 @@
       "teamWon": 12,
       "teamDrawn": 0,
       "teamLost": 1,
+      "teamPoints": 35,
       "id": 12
     },
     {
@@ -142,6 +154,7 @@
       "teamWon": 13,
       "teamDrawn": 0,
       "teamLost": 0,
+      "teamPoints": 39,
       "id": 13
     },
     {
@@ -153,6 +166,7 @@
       "teamWon": 10,
       "teamDrawn": 2,
       "teamLost": 1,
+      "teamPoints": 32,
       "id": 14
     },
     {
@@ -164,6 +178,7 @@
       "teamWon": 5,
       "teamDrawn": 3,
       "teamLost": 5,
+      "teamPoints": 18,
       "id": 15
     },
     {
@@ -175,6 +190,7 @@
       "teamWon": 4,
       "teamDrawn": 5,
       "teamLost": 4,
+      "teamPoints": 17,
       "id": 16
     },
     {
@@ -186,6 +202,7 @@
       "teamWon": 4,
       "teamDrawn": 2,
       "teamLost": 7,
+      "teamPoints": 14,
       "id": 17
     },
     {
@@ -197,6 +214,7 @@
       "teamWon": 5,
       "teamDrawn": 3,
       "teamLost": 5,
+      "teamPoints": 18,
       "id": 18
     }
   ]
