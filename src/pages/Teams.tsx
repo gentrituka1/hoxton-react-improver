@@ -20,8 +20,8 @@ export function Teams () {
             {teams.map((team) => (
               <Link to="/teamsdetails/:id">
                 <li>
-                  <img src={team.teamLogo} alt={team.teamCode} />
-                  <p>{team.teamName}</p>
+                  <img src={team.logo} alt={team.code} />
+                  <p>{team.name}</p>
                 </li>
               </Link>
             ))}

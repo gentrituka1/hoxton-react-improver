@@ -5,11 +5,21 @@ export function Table(){
 
     const [teams, setTeams] = useState<TeamItem[]>([])
 
+    function calculatePoints(team: TeamItem): number{
+        return team.tableStand.won * 3 + team.tableStand.drawn;
+    }
+
+    function addPointsToTeam(team: TeamItem){
+        return {...teams, tableStand: {...team.tableStand, points: calculatePoints(team)}}
+    }
+
     useEffect(() => {
         fetch(`http://localhost:4000/PremierLeagueTeams`)
           .then((res) => res.json())
           .then((teamsFromServer) => {
-            setTeams(teamsFromServer);
+            const sortedTeams = teamsFromServer.map(addPointsToTeam)
+            .sort((a: TeamItem, b: TeamItem) => b.tableStand.points - a.tableStand.points);
+            setTeams(sortedTeams);
           });
       }, []);
 
@@ -29,20 +39,20 @@ export function Table(){
                 <span>PTS</span>
             </div>
         </div>
-            {teams && teams.sort( (a,b) => b.teamPoints - a.teamPoints).map((team, index) => (
+            {teams.map((team, index) => (
                 <>
                 <div className="two-line">
                     <span>{index + 1}</span>
                     <div className="team-name">
-                        <img src={team.teamLogo} alt={team.teamCode} width={60}/>
-                        <span>{team.teamName}</span>
+                        <img src={team.logo} alt={team.code} width={60}/>
+                        <span>{team.name}</span>
                     </div>
                     <div className="points-bar">
-                        <span>{team.teamPlayed}</span>
-                        <span>{team.teamWon}</span>
-                        <span>{team.teamDrawn}</span>
-                        <span>{team.teamLost}</span>
-                        <span>{(team.teamWon * 3) + (team.teamDrawn * 1)}</span>
+                        <span>{team.tableStand.played}</span>
+                        <span>{team.tableStand.won}</span>
+                        <span>{team.tableStand.drawn}</span>
+                        <span>{team.tableStand.lost}</span>
+                        <span>{}</span>
                     </div>
                 </div>
                 </>

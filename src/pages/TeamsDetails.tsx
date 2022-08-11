@@ -22,16 +22,16 @@ export function TeamsDetails ({team, setTeams} : Props) {
     
     return (
         <>
-            <header>{team.teamName} Football Club</header>
+            <header>{team.name} Football Club</header>
             <main> 
                 <div className="team-image">
-                    <img src={team.teamLogo} alt={team.teamCode} />
+                    <img src={team.logo} alt={team.code} />
                 </div>
                 <div className="team-info">
-                    <div className="team-into-item"><span className="grey">FULL NAME</span><span>{team.teamName}</span></div>
-                    <div className="team-into-item"><span className="grey">CODE:</span><span>{team.teamCode}</span></div>
-                    <div className="team-into-item"><span className="grey">FOUNDED</span><span>{team.teamFounded}</span></div>
-                    {team.}
+                    <div className="team-into-item"><span className="grey">FULL NAME</span><span>{team.name}</span></div>
+                    <div className="team-into-item"><span className="grey">CODE:</span><span>{team.code}</span></div>
+                    <div className="team-into-item"><span className="grey">FOUNDED</span><span>{team.founded}</span></div>
+                    
                 </div>
             </main>
         </>
