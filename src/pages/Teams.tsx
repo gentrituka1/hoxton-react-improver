@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import { TeamItem } from "../App";
 
 export function Teams () {
@@ -17,12 +18,12 @@ export function Teams () {
         <div className="livescore-main">
           <ul className="livescore-main__list">
             {teams.map((team) => (
-              <a href={team.teamLink}>
+              <Link to="/teamsdetails/:id">
                 <li>
                   <img src={team.teamLogo} alt={team.teamCode} />
                   <p>{team.teamName}</p>
                 </li>
-              </a>
+              </Link>
             ))}
           </ul>
         </div>

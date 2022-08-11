@@ -11,7 +11,7 @@ export type TeamItem = {
   teamName: string;
   teamCode: string;
   teamLogo: string;
-  teamLink: string;
+  teamFounded: number;
   teamPlayed: number;
   teamWon: number;
   teamDrawn: number;
