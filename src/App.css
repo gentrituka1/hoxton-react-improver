@@ -6,7 +6,6 @@
 
 
 .body{
-  width: 100%;
   height: 100vh;
 }
 
@@ -111,7 +110,12 @@
 
 .the-team{
   display: grid;
+  place-items: center;
+  padding-top: 50px;
+}
+.the-team-details{
   margin: 40px;
+  width: 50%;
   border: 1px solid grey;
 }
 .team-details__header{
@@ -119,11 +123,34 @@
   padding: 30px;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #4d4a4a;
+  background: -webkit-linear-gradient(top, rgb(0, 0, 255), royalblue);
+  color: white;
 }
 .the-team main{
-  padding: 30px;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 100px;
+}
+.team-details__info{
+  display: grid;
+  padding: 40px;
+}
+.team-details__image {
+  border-right: 1px solid grey;
+  padding: 40px;
+}
+.team-details__image img{
+  width: 130px;
+}
+.team-info-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: center;
+}
+.team-info-item .grey{
+  color: rgba(128, 128, 128, 0.705);
+}
+.team-info-item .bold-grey{
+  color: grey;
+  font-size: 1.5rem;
+  font-weight: bold;
 }

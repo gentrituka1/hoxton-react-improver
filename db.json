@@ -6,7 +6,7 @@
       "logo": "/team-logos/arsenal.png",
       "founded": 1886,
       "stadium": "Emirates Stadium",
-      "stadiumCapacity": 60361,
+      "stadiumCapacity": 60704,
       "tableStand": {
         "played": 13,
         "won": 8,
@@ -22,7 +22,7 @@
       "logo": "/team-logos/aston-villa.svg",
       "founded": 1874,
       "stadium": "Villa Park",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 42657,
       "tableStand": {
         "played": 13,
         "won": 4,
@@ -38,7 +38,7 @@
       "logo": "/team-logos/bournemouth.png",
       "founded": 1899,
       "stadium": "Vitality Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 11307,
       "tableStand": {
         "played": 13,
         "won": 2,
@@ -46,7 +46,6 @@
         "lost": 8,
         "points": 9
       },
-     
       "id": 3
     },
     {
@@ -55,7 +54,7 @@
       "logo": "/team-logos/leeds-united.svg",
       "founded": 1919,
       "stadium": "The American Express Community Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 37608,
       "tableStand": {
         "played": 13,
         "won": 3,
@@ -68,10 +67,10 @@
     {
       "name": "Tottenham Hotspur",
       "code": "TOT",
-      "logo": "./team-logos/tottenham-hotspur.png",
+      "logo": "/team-logos/tottenham-hotspur.png",
       "founded": 1882,
       "stadium": "Tottenham Hotspur Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 62850,
       "tableStand": {
         "played": 13,
         "won": 9,
@@ -79,7 +78,6 @@
         "lost": 3,
         "points": 28
       },
-      
       "id": 5
 
     },
@@ -89,7 +87,7 @@
       "logo": "/team-logos/chelsea.png",
       "founded": 1905,
       "stadium": "Stamford Bridge",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 40343,
       "tableStand": {
         "played": 13,
         "won": 9,
@@ -105,7 +103,7 @@
       "logo": "/team-logos/crystal_palace.png",
       "founded": 1861,
       "stadium": "Selhurst Park",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 25486,
       "tableStand": {
         "played": 13,
         "won": 7,
@@ -113,7 +111,6 @@
         "lost": 2,
         "points": 24
       },
-      
       "id": 7
     },
     {
@@ -122,7 +119,7 @@
       "logo": "/team-logos/everton.jpg",
       "founded": 1892,
       "stadium": "Goodison Park",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 39414,
       "tableStand": {
         "played": 13,
         "won": 6,
@@ -138,7 +135,7 @@
       "logo": "/team-logos/fulham.svg",
       "founded": 1879,
       "stadium": "Craven Cottage",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 	18439,
       "tableStand": {
         "played": 13,
         "won": 6,
@@ -154,7 +151,7 @@
       "logo": "/team-logos/watford.svg",
       "founded": 1881,
       "stadium": "Vicarage Road",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 22200,
       "tableStand": {
         "played": 13,
         "won": 5,
@@ -162,7 +159,6 @@
         "lost": 5,
         "points": 18
       },
-      
       "id": 10
     },
     {
@@ -171,7 +167,7 @@
       "logo": "/team-logos/leicester-city.svg",
       "founded": 1884,
       "stadium": "King Power Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 32262,
       "tableStand": {
         "played": 13,
         "won": 8,
@@ -187,7 +183,7 @@
       "logo": "/team-logos/liverpool.png",
       "founded": 1892,
       "stadium": "Anfield",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 53394,
       "tableStand": {
         "played": 13,
         "won": 12,
@@ -195,7 +191,6 @@
         "lost": 1,
         "points": 35
       },
-      
       "id": 12
     },
     {
@@ -204,7 +199,7 @@
       "logo": "/team-logos/manchester-city.svg",
       "founded": 1880,
       "stadium": "Etihad Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 35150,
       "tableStand": {
         "played": 13,
         "won": 13,
@@ -221,7 +216,7 @@
       "logo": "/team-logos/manchester-united.png",
       "founded": 1878,
       "stadium": "Old Trafford",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 74310,
       "tableStand": {
         "played": 13,
         "won": 10,
@@ -237,7 +232,7 @@
       "logo": "/team-logos/newcastle-united.png",
       "founded": 1892,
       "stadium": "St. James' Park",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 52305,
       "tableStand": {
         "played": 13,
         "won": 5,
@@ -253,7 +248,7 @@
       "logo": "/team-logos/norwich-city.png",
       "founded": 1902,
       "stadium": "Carrow Road",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 27359,
       "tableStand": {
         "played": 13,
         "won": 4,
@@ -269,7 +264,7 @@
       "logo": "/team-logos/sheffield_united.svg",
       "founded": 1889,
       "stadium": "Bramall Lane",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 	32702,
       "tableStand": {
         "played": 13,
         "won": 4,
@@ -284,7 +279,7 @@
       "logo": "/team-logos/southampton.svg",
       "founded": 1885,
       "stadium": "St. Mary's Stadium",
-      "stadiumCapacity": 50000,
+      "stadiumCapacity": 15200,
       "tableStand": {
         "played": 13,
         "won": 5,
