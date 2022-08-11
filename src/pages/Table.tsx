@@ -10,7 +10,7 @@ export function Table(){
     }
 
     function addPointsToTeam(team: TeamItem){
-        return {...teams, tableStand: {...team.tableStand, points: calculatePoints(team)}}
+        return {...team, tableStand: {...team.tableStand, points: calculatePoints(team)}}
     }
 
     useEffect(() => {
@@ -52,7 +52,7 @@ export function Table(){
                         <span>{team.tableStand.won}</span>
                         <span>{team.tableStand.drawn}</span>
                         <span>{team.tableStand.lost}</span>
-                        <span>{}</span>
+                        <span>{calculatePoints(team)}</span>
                     </div>
                 </div>
                 </>
