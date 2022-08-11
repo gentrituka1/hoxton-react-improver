@@ -18,7 +18,7 @@ export function Table(){
           .then((res) => res.json())
           .then((teamsFromServer) => {
             const sortedTeams = teamsFromServer.map(addPointsToTeam)
-            .sort((a: TeamItem, b: TeamItem) => b.tableStand.points - a.tableStand.points);
+            .sort((a: TeamItem, b: TeamItem) => b.tableStand.points - a.tableStand.points || b.tableStand.won - a.tableStand.won || b.tableStand.drawn - a.tableStand.drawn || a.tableStand.lost - b.tableStand.lost);
             setTeams(sortedTeams);
           });
       }, []);
