@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  width: 100%;
+  height: 100vh;
+}
+
+/* header section  */
+
+.livescore-header{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 100px;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.livescore-header-nav{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 100px;
+  align-content: center;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+
+/* main section */
+
+.livescore-main{
+  display: grid;
+  padding: 20px;
+}
+
+.livescore-main__list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.livescore-main__list li {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+}
+
+.livescore-main__list li img{
+  width: 100px;
+}
+.livescore-main__list a{
+  text-decoration: none;
+  color: lightcoral;
+}
+
+/* table page */
+
+.one-line{
+  display: grid;
+  grid-auto-flow: column;
+  width: 1000px;
+  gap: 150px;
+  background-color: grey;
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: bold;
+}
+.two-line{
+  display: grid;
+  grid-auto-flow: column;
+  width: 1000px;
+  gap: 150px;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.team-name{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-weight: bold;
+}
+.points-bar{
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 50px;
+  align-content: center;
+  justify-content: end;
+}
+.the-table{
+  display: grid;
+  place-content: center;
+  padding: 20px;
+}
+
