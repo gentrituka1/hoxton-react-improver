@@ -36,7 +36,7 @@ export function TeamsDetails () {
                             <div className="team-info-item"><span className="grey">CODE:</span><span className="bold-grey">{team.code}</span></div>
                             <div className="team-info-item"><span className="grey">FOUNDED:</span><span className="bold-grey">{team.founded}</span></div>
                             <div className="team-info-item"><span className="grey">GROUND:</span><span className="bold-grey">{team.stadium}</span></div>
-                            <div className="team-info-item"><span className="grey">GROUND CAPACITY:</span><span className="bold-grey">{team.stadiumCapacity}</span></div>
+                            <div className="team-info-item"><span className="grey">GROUND CAPACITY:</span><span className="bold-grey">{team.stadiumCapacity} seats</span></div>
                         </div>
                     </main>
                  </div>
