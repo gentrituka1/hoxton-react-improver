@@ -32,7 +32,7 @@ export function Teams () {
               <div className="livescore-header-search-input">
                 <div className="livescore-header-search-input-logo">
                   <FcSearch className="search-icon" />
-                  <input type="text" id="search" name="search" placeholder="Search teams..." />
+                  <input type="text" id="search" placeholder="Search teams..." />
                 </div>
               </div>
           </form>
