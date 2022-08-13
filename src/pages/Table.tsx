@@ -53,7 +53,7 @@ export function Table() {
           <>
             <div className="two-line">
               <span>{index + 1}</span>
-              <Link to={`/teams/${team.id}`} className="link" >
+              <Link to={`/teams/${team.id}`} className="link-table" >
                 <div className="team-name">
                   <img src={team.logo} alt={team.code} width={60} />
                   <span>{team.name}</span>
