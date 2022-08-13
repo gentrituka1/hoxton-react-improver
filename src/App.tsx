@@ -28,7 +28,7 @@ function App(team: TeamItem) {
 
   return (
     <div className="App">
-      <Header />
+      <Header teams={teams} setTeams={setTeams}/>
       <main>
         <Routes>
           <Route index element={<Navigate to="/teams" />} />

@@ -33,6 +33,36 @@
   color: royalblue;
   font-weight: bold;
 }
+.livescore-header-search-input{
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+.livescore-header-search-input-logo{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: center;
+}
+.search-icon{
+  font-size: 2.2rem;
+  height: 50px;
+  border: 1px solid grey;
+  border-right: unset;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#search{
+  padding-left: 20px;
+  width: 300px;
+  height: 50px;
+  border: unset;
+  border: 1px solid grey;
+  border-left: unset;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  font-size: 1.5rem;
+}
 
 /* main section */
 
