@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { TeamItem } from "../App";
 
 export function Table() {
@@ -52,10 +53,12 @@ export function Table() {
           <>
             <div className="two-line">
               <span>{index + 1}</span>
-              <div className="team-name">
-                <img src={team.logo} alt={team.code} width={60} />
-                <span>{team.name}</span>
-              </div>
+              <Link to={`/teams/${team.id}`} className="link" >
+                <div className="team-name">
+                  <img src={team.logo} alt={team.code} width={60} />
+                  <span>{team.name}</span>
+                </div>
+              </Link>
               <div className="points-bar">
                 <span>{team.tableStand.played}</span>
                 <span>{team.tableStand.won}</span>

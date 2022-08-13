@@ -135,6 +135,10 @@
   place-content: center;
   padding: 20px;
 }
+.link{
+  text-decoration: none;
+  color: black;
+}
 
 /* team details */
 
