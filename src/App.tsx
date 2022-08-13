@@ -23,12 +23,12 @@ export type TeamItem = {
   id: number;
 };
 
-function App(team: TeamItem) {
+function App() {
   const [teams, setTeams] = useState<TeamItem[]>([]);
 
   return (
     <div className="App">
-      <Header teams={teams} setTeams={setTeams}/>
+      <Header/>
       <main>
         <Routes>
           <Route index element={<Navigate to="/teams" />} />

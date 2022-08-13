@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import { TeamItem } from "../App";
 
-type Props = {
-    teams: TeamItem[];
-    setTeams: (teams: TeamItem[]) => void;
-}
-
-export function Header({ teams, setTeams }: Props) {
+export function Header() {
     return (
         <header className="livescore-header">
             <Link to="/teams">

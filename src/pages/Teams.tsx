@@ -22,8 +22,7 @@ export function Teams() {
     <>
       <form
         className="livescore-header-search"
-        onChange={(event) => {
-          event.preventDefault();
+        onChange={() => {
           let searchValue = document.getElementById("search")?.value;
           let filteredTeams = teams.filter((team) =>
             team.name.toLowerCase().includes(searchValue.toLowerCase())

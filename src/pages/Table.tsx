@@ -25,9 +25,7 @@ export function Table() {
           .sort(
             (a: TeamItem, b: TeamItem) =>
               b.tableStand.points - a.tableStand.points ||
-              b.tableStand.won - a.tableStand.won ||
-              b.tableStand.drawn - a.tableStand.drawn ||
-              a.tableStand.lost - b.tableStand.lost
+              b.tableStand.won - a.tableStand.won
           );
         setTeams(sortedTeams);
       });
