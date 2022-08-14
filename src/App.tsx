@@ -33,9 +33,9 @@ function App() {
         <Routes>
           <Route index element={<Navigate to="/teams" />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/teams/:id" element={<TeamsDetails />} />
           <Route path="*" element={<div>404</div>} />
           <Route path="/table" element={<Table />} />
-          <Route path="/teams/:id" element={<TeamsDetails />} />
         </Routes>
       </main>
     </div>
