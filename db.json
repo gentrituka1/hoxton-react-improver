@@ -32,7 +32,7 @@
         "points": 15
       },
       "id": 2,
-      "favourite": true
+      "favourite": false
     },
     {
       "name": "Bournemouth",
@@ -83,7 +83,7 @@
         "points": 28
       },
       "id": 5,
-      "favourite": false
+      "favourite": true
     },
     {
       "name": "Chelsea",
@@ -100,7 +100,7 @@
         "points": 28
       },
       "id": 6,
-      "favourite": false
+      "favourite": true
     },
     {
       "name": "Crystal Palace",
@@ -168,7 +168,7 @@
         "points": 18
       },
       "id": 10,
-      "favourite": true
+      "favourite": false
     },
     {
       "name": "Leicester City",
@@ -185,7 +185,7 @@
         "points": 25
       },
       "id": 11,
-      "favourite": false
+      "favourite": true
     },
     {
       "name": "Liverpool",
@@ -202,7 +202,7 @@
         "points": 35
       },
       "id": 12,
-      "favourite": false
+      "favourite": true
     },
     {
       "name": "Manchester City",
@@ -219,7 +219,7 @@
         "points": 39
       },
       "id": 13,
-      "favourite": false
+      "favourite": true
     },
     {
       "name": "Manchester United",
@@ -253,7 +253,7 @@
         "points": 18
       },
       "id": 15,
-      "favourite": true
+      "favourite": false
     },
     {
       "name": "Norwich City",

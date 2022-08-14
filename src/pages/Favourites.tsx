@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { FcSearch } from "react-icons/fc";
+import { Link, useNavigate } from "react-router-dom";
 import { TeamItem } from "../App";
+
+
 
 export function Favourites () {
     const [favouriteTeams, setFavouriteTeams] = useState<TeamItem[]>([]);
@@ -15,6 +18,8 @@ export function Favourites () {
 
     return (
         <>
+        
+
         <div className="livescore-main">
         <ul className="livescore-main__list">
           {favouriteTeams.map((team) => (
