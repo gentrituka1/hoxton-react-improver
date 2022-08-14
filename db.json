@@ -14,7 +14,8 @@
         "lost": 4,
         "points": 25
       },
-      "id": 1
+      "id": 1,
+      "favourite": true
     },
     {
       "name": "Aston Villa",
@@ -30,7 +31,8 @@
         "lost": 6,
         "points": 15
       },
-      "id": 2
+      "id": 2,
+      "favourite": true
     },
     {
       "name": "Bournemouth",
@@ -46,7 +48,8 @@
         "lost": 8,
         "points": 9
       },
-      "id": 3
+      "id": 3,
+      "favourite": false
     },
     {
       "name": "Leeds United",
@@ -62,7 +65,8 @@
         "lost": 6,
         "points": 13
       },
-      "id": 4
+      "id": 4,
+      "favourite": false
     },
     {
       "name": "Tottenham Hotspur",
@@ -78,8 +82,8 @@
         "lost": 3,
         "points": 28
       },
-      "id": 5
-
+      "id": 5,
+      "favourite": false
     },
     {
       "name": "Chelsea",
@@ -95,7 +99,8 @@
         "lost": 3,
         "points": 28
       },
-      "id": 6
+      "id": 6,
+      "favourite": false
     },
     {
       "name": "Crystal Palace",
@@ -111,7 +116,8 @@
         "lost": 2,
         "points": 24
       },
-      "id": 7
+      "id": 7,
+      "favourite": false
     },
     {
       "name": "Everton",
@@ -127,7 +133,8 @@
         "lost": 4,
         "points": 21
       },
-      "id": 8
+      "id": 8,
+      "favourite": false
     },
     {
       "name": "Fulham",
@@ -135,7 +142,7 @@
       "logo": "/team-logos/fulham.svg",
       "founded": 1879,
       "stadium": "Craven Cottage",
-      "stadiumCapacity": 	18439,
+      "stadiumCapacity": 18439,
       "tableStand": {
         "played": 13,
         "won": 6,
@@ -143,7 +150,8 @@
         "lost": 2,
         "points": 23
       },
-      "id": 9
+      "id": 9,
+      "favourite": false
     },
     {
       "name": "Watford",
@@ -159,7 +167,8 @@
         "lost": 5,
         "points": 18
       },
-      "id": 10
+      "id": 10,
+      "favourite": true
     },
     {
       "name": "Leicester City",
@@ -175,7 +184,8 @@
         "lost": 4,
         "points": 25
       },
-      "id": 11
+      "id": 11,
+      "favourite": false
     },
     {
       "name": "Liverpool",
@@ -191,7 +201,8 @@
         "lost": 1,
         "points": 35
       },
-      "id": 12
+      "id": 12,
+      "favourite": false
     },
     {
       "name": "Manchester City",
@@ -207,8 +218,8 @@
         "lost": 0,
         "points": 39
       },
-      
-      "id": 13
+      "id": 13,
+      "favourite": false
     },
     {
       "name": "Manchester United",
@@ -224,7 +235,8 @@
         "lost": 1,
         "points": 32
       },
-      "id": 14
+      "id": 14,
+      "favourite": true
     },
     {
       "name": "Newcastle United",
@@ -240,7 +252,8 @@
         "lost": 5,
         "points": 18
       },
-      "id": 15
+      "id": 15,
+      "favourite": true
     },
     {
       "name": "Norwich City",
@@ -256,7 +269,8 @@
         "lost": 4,
         "points": 17
       },
-      "id": 16
+      "id": 16,
+      "favourite": false
     },
     {
       "name": "Sheffield United",
@@ -264,14 +278,15 @@
       "logo": "/team-logos/sheffield_united.svg",
       "founded": 1889,
       "stadium": "Bramall Lane",
-      "stadiumCapacity": 	32702,
+      "stadiumCapacity": 32702,
       "tableStand": {
         "played": 13,
         "won": 4,
         "drawn": 2,
         "lost": 7
       },
-      "id": 17
+      "id": 17,
+      "favourite": false
     },
     {
       "name": "Southampton",
@@ -287,7 +302,8 @@
         "lost": 5,
         "points": 18
       },
-      "id": 18
+      "id": 18,
+      "favourite": false
     }
   ]
 }

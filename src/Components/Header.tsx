@@ -10,6 +10,7 @@ export function Header() {
             <div className="livescore-header-nav">
                 <Link className="link" to="/teams">Teams</Link>
                 <Link className="link" to="/table">Table</Link>
+                <Link className="link" to="/favourites">Favourite Teams</Link>
             </div>
         </header>
     );

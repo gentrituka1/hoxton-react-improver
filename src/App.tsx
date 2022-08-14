@@ -5,6 +5,7 @@ import { Teams } from "./pages/Teams";
 import { Table } from "./pages/Table";
 import { useState } from "react";
 import { TeamsDetails } from "./pages/TeamsDetails";
+import { Favourites } from "./pages/Favourites";
 
 export type TeamItem = {
   name: string;
@@ -21,6 +22,7 @@ export type TeamItem = {
     points: number;
   };
   id: number;
+  favourite: boolean;
 };
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
           <Route path="/teams/:id" element={<TeamsDetails />} />
           <Route path="*" element={<div>404</div>} />
           <Route path="/table" element={<Table />} />
+          <Route path="/favourites" element={<Favourites />} />
         </Routes>
       </main>
     </div>

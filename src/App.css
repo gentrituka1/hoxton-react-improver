@@ -29,7 +29,6 @@
   text-decoration: none;
 }
 .link{
-  text-decoration: none;
   color: royalblue;
   font-weight: bold;
 }
@@ -162,7 +161,7 @@
 }
 .the-team main{
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
 }
 .team-details__info{
   display: grid;
@@ -187,4 +186,28 @@
   color: grey;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+
+.loading{
+  font-size: 2.5rem;
+  color: red;
+  display: grid;
+  place-items: center;
+  padding-top: 300px;
+}
+.team-details__favourite{
+  display: grid;
+  place-items: center;
+}
+.favourite{
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.favourite-active{
+  font-size: 3rem;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
 }
