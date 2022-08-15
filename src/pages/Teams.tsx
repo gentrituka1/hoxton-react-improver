@@ -16,8 +16,6 @@ export function Teams() {
       });
   }, []);
 
-  let navigate = useNavigate();
-
   return (
     <>
       <form

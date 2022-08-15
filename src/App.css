@@ -206,9 +206,16 @@
   font-weight: bold;
   cursor: pointer;
 }
+.favourite:hover{
+  color: orange;
+}
 .favourite-active{
   font-size: 3rem;
   font-weight: bold;
   color: orange;
   cursor: pointer;
 }
+.favourite-team{
+  color: red;
+}
+

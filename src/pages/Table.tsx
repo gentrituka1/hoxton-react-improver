@@ -55,6 +55,7 @@ export function Table() {
                 <div className="team-name">
                   <img src={team.logo} alt={team.code} width={60} />
                   <span>{team.name}</span>
+                  {team.favourite ? <span className="favourite-team">This is your favourite team</span> : null}
                 </div>
               </Link>
               <div className="points-bar">
