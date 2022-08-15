@@ -1,0 +1,89 @@
+{
+    "LaLigaTeams": [
+        {
+            "name": "Barcelona",
+            "code": "BAR",
+            "logo": "/team-logos/LaLigaTeams/Barcelona.svg",
+            "founded": 1900,
+            "stadium": "Camp Nou",
+            "stadiumCapacity": 99354,
+            "tableStand": {
+              "played": 13,
+              "won": 13,
+              "drawn": 0,
+              "lost": 0,
+              "points": 39
+            },
+            "id": 1,
+            "favourite": false
+          },
+          {
+            "name": "Real Madrid",
+            "code": "RMA",
+            "logo": "/team-logos/LaLigaTeams/Real-Madrid.svg",
+            "founded": 1902,
+            "stadium": "Santiago Bernabeu",
+            "stadiumCapacity": 81044,
+            "tableStand": {
+              "played": 13,
+              "won": 12,
+              "drawn": 1,
+              "lost": 0,
+              "points": 37
+            },
+            "id": 2,
+            "favourite": false
+          },
+          {
+            "name": "Atletico Madrid",
+            "code": "ATM",
+            "logo": "/team-logos/LaLigaTeams/atletico-madrid.svg",
+            "founded": 1903,
+            "stadium": "Wanda Metropolitano",
+            "stadiumCapacity": 67703,
+            "tableStand": {
+              "played": 13,
+              "won": 10,
+              "drawn": 2,
+              "lost": 1,
+              "points": 32
+            },
+            "id": 3,
+            "favourite": false
+          },
+          {
+            "name": "Athletic Bilbao",
+            "code": "ATH",
+            "logo": "/team-logos/LaLigaTeams/athletic-bilbao.svg",
+            "founded": 1898,
+            "stadium": "Wanda Metropolitano",
+            "stadiumCapacity": 53289,
+            "tableStand": {
+              "played": 13,
+              "won": 9,
+              "drawn": 2,
+              "lost": 2,
+              "points": 29
+            },
+            "id": 4,
+            "favourite": false
+          },
+          {
+            "name": "Valencia",
+            "code": "VAL",
+            "logo": "/team-logos/LaLigaTeams/valencia.svg",
+            "founded": 1919,
+            "stadium": "Mestalla",
+            "stadiumCapacity": 55000,
+            "tableStand": {
+              "played": 13,
+              "won": 10,
+              "drawn": 1,
+              "lost": 2,
+              "points": 31
+            },
+            "id": 5,
+            "favourite": false
+          }
+    ]
+}
