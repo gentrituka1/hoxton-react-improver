@@ -8,7 +8,7 @@ export function Teams() {
   const [filteredTeams, setFilteredTeams] = useState<TeamItem[]>([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/PremierLeagueTeams`)
+    fetch(`http://localhost:4000`)
       .then((res) => res.json())
       .then((teamsFromServer) => {
         setTeams(teamsFromServer);

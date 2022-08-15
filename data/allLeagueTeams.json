@@ -1,0 +1,200 @@
+{
+    "PremierLeagueTeams": 
+    [
+      {
+        "name": "Arsenal",
+        "code": "ARS",
+        "logo": "/team-logos/arsenal.png",
+        "founded": 1886,
+        "stadium": "Emirates Stadium",
+        "stadiumCapacity": 60704,
+        "tableStand": {
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "points": 25
+        },
+        "id": 1,
+        "favourite": true
+      },
+      {
+        "name": "Tottenham Hotspur",
+        "code": "TOT",
+        "logo": "/team-logos/tottenham-hotspur.png",
+        "founded": 1882,
+        "stadium": "Tottenham Hotspur Stadium",
+        "stadiumCapacity": 62850,
+        "tableStand": {
+          "played": 13,
+          "won": 9,
+          "drawn": 1,
+          "lost": 3,
+          "points": 28
+        },
+        "id": 5,
+        "favourite": true
+      },
+      {
+        "name": "Chelsea",
+        "code": "CHE",
+        "logo": "/team-logos/chelsea.png",
+        "founded": 1905,
+        "stadium": "Stamford Bridge",
+        "stadiumCapacity": 40343,
+        "tableStand": {
+          "played": 13,
+          "won": 9,
+          "drawn": 1,
+          "lost": 3,
+          "points": 28
+        },
+        "id": 6,
+        "favourite": true
+      },
+      {
+        "name": "Liverpool",
+        "code": "LIV",
+        "logo": "/team-logos/liverpool.png",
+        "founded": 1892,
+        "stadium": "Anfield",
+        "stadiumCapacity": 53394,
+        "tableStand": {
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "points": 35
+        },
+        "id": 12,
+        "favourite": true
+      },
+      {
+        "name": "Manchester City",
+        "code": "MCI",
+        "logo": "/team-logos/manchester-city.svg",
+        "founded": 1880,
+        "stadium": "Etihad Stadium",
+        "stadiumCapacity": 35150,
+        "tableStand": {
+          "played": 13,
+          "won": 13,
+          "drawn": 0,
+          "lost": 0,
+          "points": 39
+        },
+        "id": 13,
+        "favourite": true
+      },
+      {
+        "name": "Manchester United",
+        "code": "MUN",
+        "logo": "/team-logos/manchester-united.png",
+        "founded": 1878,
+        "stadium": "Old Trafford",
+        "stadiumCapacity": 74310,
+        "tableStand": {
+          "played": 13,
+          "won": 10,
+          "drawn": 2,
+          "lost": 1,
+          "points": 32
+        },
+        "id": 14,
+        "favourite": true
+      }
+    ],
+
+
+    "LaLigaTeams": [
+      {
+        "name": "Barcelona",
+        "code": "BAR",
+        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/Barcelona.svg",
+        "founded": 1900,
+        "stadium": "Camp Nou",
+        "stadiumCapacity": 99354,
+        "tableStand": {
+          "played": 13,
+          "won": 13,
+          "drawn": 0,
+          "lost": 0,
+          "points": 39
+        },
+        "id": 1,
+        "favourite": false
+      },
+      {
+        "name": "Real Madrid",
+        "code": "RMA",
+        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/Real-Madrid.svg",
+        "founded": 1902,
+        "stadium": "Santiago Bernabeu",
+        "stadiumCapacity": 81044,
+        "tableStand": {
+          "played": 13,
+          "won": 12,
+          "drawn": 1,
+          "lost": 0,
+          "points": 37
+        },
+        "id": 2,
+        "favourite": false
+      },
+      {
+        "name": "Atletico Madrid",
+        "code": "ATM",
+        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/atletico-madrid.svg",
+        "founded": 1903,
+        "stadium": "Wanda Metropolitano",
+        "stadiumCapacity": 67703,
+        "tableStand": {
+          "played": 13,
+          "won": 10,
+          "drawn": 2,
+          "lost": 1,
+          "points": 32
+        },
+        "id": 3,
+        "favourite": false
+      },
+      {
+        "name": "Athletic Bilbao",
+        "code": "ATH",
+        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/athletic-bilbao.png",
+        "founded": 1898,
+        "stadium": "Wanda Metropolitano",
+        "stadiumCapacity": 53289,
+        "tableStand": {
+          "played": 13,
+          "won": 9,
+          "drawn": 2,
+          "lost": 2,
+          "points": 29
+        },
+        "id": 4,
+        "favourite": false
+      },
+      {
+        "name": "Valencia",
+        "code": "VAL",
+        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/valencia.svg",
+        "founded": 1919,
+        "stadium": "Mestalla",
+        "stadiumCapacity": 55000,
+        "tableStand": {
+          "played": 13,
+          "won": 10,
+          "drawn": 1,
+          "lost": 2,
+          "points": 31
+        },
+        "id": 5,
+        "favourite": false
+      }
+    ],
+
+    "SerieATeams": [
+
+    ]
+}
