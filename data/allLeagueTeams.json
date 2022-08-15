@@ -4,7 +4,7 @@
       {
         "name": "Arsenal",
         "code": "ARS",
-        "logo": "/team-logos/arsenal.png",
+        "logo": "/PremierLeagueLogos/arsenal.png",
         "founded": 1886,
         "stadium": "Emirates Stadium",
         "stadiumCapacity": 60704,
@@ -21,7 +21,7 @@
       {
         "name": "Tottenham Hotspur",
         "code": "TOT",
-        "logo": "/team-logos/tottenham-hotspur.png",
+        "logo": "/PremierLeagueLogos/tottenham-hotspur.png",
         "founded": 1882,
         "stadium": "Tottenham Hotspur Stadium",
         "stadiumCapacity": 62850,
@@ -38,7 +38,7 @@
       {
         "name": "Chelsea",
         "code": "CHE",
-        "logo": "/team-logos/chelsea.png",
+        "logo": "/PremierLeagueLogos/chelsea.png",
         "founded": 1905,
         "stadium": "Stamford Bridge",
         "stadiumCapacity": 40343,
@@ -55,7 +55,7 @@
       {
         "name": "Liverpool",
         "code": "LIV",
-        "logo": "/team-logos/liverpool.png",
+        "logo": "/PremierLeagueLogos/liverpool.png",
         "founded": 1892,
         "stadium": "Anfield",
         "stadiumCapacity": 53394,
@@ -72,7 +72,7 @@
       {
         "name": "Manchester City",
         "code": "MCI",
-        "logo": "/team-logos/manchester-city.svg",
+        "logo": "/PremierLeagueLogos/manchester-city.svg",
         "founded": 1880,
         "stadium": "Etihad Stadium",
         "stadiumCapacity": 35150,
@@ -89,7 +89,7 @@
       {
         "name": "Manchester United",
         "code": "MUN",
-        "logo": "/team-logos/manchester-united.png",
+        "logo": "/PremierLeagueLogos/manchester-united.png",
         "founded": 1878,
         "stadium": "Old Trafford",
         "stadiumCapacity": 74310,
@@ -110,7 +110,7 @@
       {
         "name": "Barcelona",
         "code": "BAR",
-        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/Barcelona.svg",
+        "logo": "/LaLigaLogos/barcelona.svg",
         "founded": 1900,
         "stadium": "Camp Nou",
         "stadiumCapacity": 99354,
@@ -127,7 +127,7 @@
       {
         "name": "Real Madrid",
         "code": "RMA",
-        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/Real-Madrid.svg",
+        "logo": "/LaLigaLogos/real-madrid.svg",
         "founded": 1902,
         "stadium": "Santiago Bernabeu",
         "stadiumCapacity": 81044,
@@ -144,7 +144,7 @@
       {
         "name": "Atletico Madrid",
         "code": "ATM",
-        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/atletico-madrid.svg",
+        "logo": "/LaLigaLogos/atletico-madrid.svg",
         "founded": 1903,
         "stadium": "Wanda Metropolitano",
         "stadiumCapacity": 67703,
@@ -161,7 +161,7 @@
       {
         "name": "Athletic Bilbao",
         "code": "ATH",
-        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/athletic-bilbao.png",
+        "logo": "/LaLigaLogos/athletic-bilbao.png",
         "founded": 1898,
         "stadium": "Wanda Metropolitano",
         "stadiumCapacity": 53289,
@@ -178,7 +178,7 @@
       {
         "name": "Valencia",
         "code": "VAL",
-        "logo": "/team-logos/PremierLeagueLogos/LaLigaLogos/valencia.svg",
+        "logo": "/LaLigaLogos/valencia.svg",
         "founded": 1919,
         "stadium": "Mestalla",
         "stadiumCapacity": 55000,
